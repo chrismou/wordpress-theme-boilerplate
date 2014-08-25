@@ -1,0 +1,41 @@
+/* //TODO - tidy up */
+
+/* comments */
+.comments { margin-top:25px; }
+h2.comment-title  { font-size:24px; margin-bottom:25px; }
+.comments h3 { font-size:16px; margin-bottom:10px; }
+#commentform { margin-bottom:25px; }
+#commentform input[type=text], #commentform input[type=email], #commentform input[type=url], #commentform textarea { padding:8px 10px; color:#666; border:1px solid #ddd; }
+#commentform textarea { width:80%; }
+#commentform p { margin-bottom:5px; }
+#commentform .comment-notes { display:none; }
+#commentform .comment-subscription-form { margin-bottom:5px; font-size:12px; color:#999; }
+.form-allowed-tags { display:none; }
+
+.commentlist { margin:0px 0 0; clear:both; overflow:hidden; list-style:none; }
+.commentlist li.comment { list-style:none; background-color:#f4f2f2; border:2px solid #eee; border-radius:10px; margin-bottom:10px; padding:10px; position:relative; }
+.commentlist li.comment.byuser { background-color:#FFD6EC; border:2px solid #FFB7DD; }
+.commentlist li.comment .reply { position:absolute; right:10px; top:10px; }
+.commentlist li.comment .reply a:hover { background-color:#444; text-decoration:none; }
+.commentlist li.comment li.comment { background-color:#ebebeb; margin-top:15px; }
+.commentlist li.comment li.comment li.comment { background-color:#e8e8e8; }
+.commentlist li.comment li.comment li.comment li.comment { background-color:#e5e5e5; }
+.commentlist li.comment li.comment li.comment li.comment li.comment { background-color:#e2e2e2; }
+.commentlist .comment-meta p { margin:0; }
+.commentlist .comment-meta .avatar { float:left; margin-right:10px; border:5px solid #eee; border-radius:5px; }
+.commentlist .comment-meta .name { font-size:15px; font-weight:bold; }
+.commentlist .comment-meta .name cite { font-style:none; }
+.commentlist .comment-meta .name em { font-weight:normal; font-size:11px; }
+.commentlist .comment-meta .date { font-size:12px; }
+.commentlist .comment-content { clear:both; padding:10px 5px; }
+.commentlist .comment-content p { margin-bottom:5px; }
+.comment .comment-respond { margin-top:20px; }
+.comment-meta cite { font-style:normal; font-size:18px; font-weight:bold; }
+
+.comment li { list-style:disc inside none; }
+.comment h1 { font-size:22px; }
+.comment h2 { font-size:20px; }
+.comment h3 { font-size:18px; }
+.comment h4 { font-size:17px; }
+.comment h5 { font-size:16px; }
+h2#comments-title { font-size:22px; line-height:22px; margin-bottom:15px; }
